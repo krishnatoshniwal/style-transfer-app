@@ -1,4 +1,5 @@
-# style-transfer
+# Style Transfer App using C++
 
-The C++ UI framework follows the following hierarchy. 
-![](/docs/front-end-framework.png)
+The C++ UI framework follows the following hierarchy.
+
+![](./docs/front-end-framework.png)
