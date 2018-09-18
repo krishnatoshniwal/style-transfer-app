@@ -30,9 +30,11 @@ included in [libraries](./src/framework/utils/libraries.h) and the functions cal
 ### Using the app:
 * Use left and right arrow keys to change the style image and up and down arrow keys
 to change the content image.
-* Press **GO** to transfer the style onto the content image. (Initialises the tensorflow model).
-* More images can be added in the [images](./images) folder. You can update the app to read the new images by pressing the Update button.
-* If you wish to transfer style of all style images onto all content images, press **ALL IN**.
+* The output image would be updated automatically, if the background is white then press **Go!** to transfer the style onto the content image. The tensorflow model would only be initialised if the output
+image is not already present and you press **Go!**. 
+* More style and content images can be added in the [images](./images) directory. You can force the app to rebuild that hash that stores the location
+of all images by pressing the **Update** button.
+* If you wish to transfer style of all style images onto all content images, press **All In!**.
 
 
 ### Building the app from source:
