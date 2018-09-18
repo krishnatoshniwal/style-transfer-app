@@ -9,7 +9,7 @@ namespace BmpLocations {
     int contentNum = 0, numContent = 1;
 
     void SetLocs() {
-        std::string dataPath = "../../../src/iLearn/Project/data/";
+        std::string dataPath = "./images/";
         styleBmpLoc = dataPath + "style";
         contentBmpLoc = dataPath + "content";
         outputBmpLoc = dataPath + "output";

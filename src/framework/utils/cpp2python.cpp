@@ -21,7 +21,7 @@ std::string exec(const char* cmd) {
 
 std::string make_cmd(const std::string img_path, const std::string style_path, const std::string save_path, const float x1, const float y1, const float x2, const float y2){
     std::ostringstream oss;
-    oss << "python ../../../src/iLearn/Project/arbitrary_style_transfer/main.py " << img_path << " " << style_path << " " << save_path << " " << x1 << " " << y1 << " " << x2 << " " << y2;
+    oss << "python arbitrary_style_transfer_py/main.py " << img_path << " " << style_path << " " << save_path << " " << x1 << " " << y1 << " " << x2 << " " << y2;
     std::string cmd = oss.str();
     return cmd;
 }
@@ -32,9 +32,3 @@ std::string CToPy(const std::string img_path, const std::string style_path, cons
 
     return result.c_str();    
 }
-
-
-// auto transfer_path = CToPy("../../../src/iLearn/Project/images/dancing.jpg",
-//     "../../../src/iLearn/Project/images/picasso.jpg",
-//     "../../../src/iLearn/Project/images",0,100,0,100);
-// printf("Transfer Path is: %s\n", transfer_path.c_str());
