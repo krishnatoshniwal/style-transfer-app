@@ -36,6 +36,7 @@ namespace BmpLocations {
 
     void ReadFilesFromLoc(const std::string &path, vector<std::string> &fileLocs, vector<std::string> &fileNames) {
         /**
+         * Uses functions from dirent.h
          * Reads all the files stored in a given location and returns a vector object
          * of all the paths as strings
          */
