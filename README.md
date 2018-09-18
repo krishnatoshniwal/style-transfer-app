@@ -1,13 +1,13 @@
 # App for Style Transfer
 
 This app was built using the C++ UI framework which was designed for 
-the course project of Advanced Engineering Computation (24-783). 
-The framework follows the following hierarchy. 
+the course project of Advanced Engineering Computation (24-783). The UI framework was built on top of an OpenGL window framework called FsLazyWindow designed by 
+Prof. Soji Yamakawa at Carnegie Mellon University. The framework follows the following hierarchy. 
 
 ![](./docs/front-end-framework.png)
 
 [Tensorflow implementation](https://github.com/elleryqueenhomels/arbitrary_style_transfer) of style transfer using adaptive instance normalisation was 
-used as the backend for transferring style. The App outputs an image after transferring a style of an image onto 
+used as the backend for transferring style. The app outputs an image inside the ui after transferring a style of an image onto 
 a content image.
  
 ###Recommended Requirement
