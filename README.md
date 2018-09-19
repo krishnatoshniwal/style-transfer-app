@@ -1,8 +1,8 @@
 # App for Style Transfer
 
 This app was built using the C++ UI framework which was designed for 
-the course project of Advanced Engineering Computation (24-783). The UI framework was built on top of an OpenGL window framework called FsLazyWindow designed by 
-Prof. Soji Yamakawa at Carnegie Mellon University. The framework follows the following hierarchy. 
+the course project of Advanced Engineering Computation (24-783). The UI framework was in turn built on top of an OpenGL cross-platform window framework "FsSimpleWindow" 
+created at Carnegie Mellon University by Prof. Soji Yamakawa . The UI framework follows the following hierarchy. 
 
 ![](./docs/front-end-framework.png)
 
@@ -40,7 +40,7 @@ of all images by pressing the **Update** button.
 ### Building the app from source:
 * Make a build directory inside the current project. Inside the build directory, run *cmake* for the [src](./src)
 directory.
-* Run *make*, the exectuable would appear immediately outside the build directory.
+* Run *make*, the exectuable would appear immediately outside the build directory, i.e. the project directory.
 
 ### User Interface
 ![](./docs/ui.png)
