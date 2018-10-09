@@ -1,4 +1,4 @@
-add_subdirectory(utils)
-add_executable(Style_transfer MACOSX_BUNDLE main.cpp)
-target_link_libraries(Style_transfer fslazywindow simplebitmap ysbitmapfont utils GL GLU X11)
-set_target_properties(Style_transfer PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../..)
+add_subdirectory(include)
+add_executable(StyleTransferApp MACOSX_BUNDLE main.cpp)
+target_link_libraries(StyleTransferApp fslazywindow simplebitmap ysbitmapfont utils GL GLU X11)
+set_target_properties(StyleTransferApp PROPERTIES RUNTIME_OUTPUT_DIRECTORY ../../dist)
